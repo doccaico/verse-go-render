@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Verse</title>
+    <link href="web/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>- {{.Ja}}/{{.En}} {{.Page}} <a href="/">&raquo;&raquo;&nbsp;他をみる</a></h1>
+
+    {{range $v := .Texts}}
+    <p>{{$v}}</p>
+    {{end}}
+
+    <footer>
+      <a href="/">&raquo;&raquo;&nbsp;他をみる</a>
+    </footer>
+  </body>
+</html>
