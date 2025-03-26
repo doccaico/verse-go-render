@@ -1,6 +1,6 @@
 module verse-go-render
 
-go 1.24.1
+go 1.24.0
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
