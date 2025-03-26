@@ -9,14 +9,11 @@ a {
     text-decoration: none;
 }
 
-h1 a {
-    font-size: 0.5em;
+header {
+    padding-top: 50px;
 }
 
-footer {
+nav {
+    margin-bottom: 1rem;
     text-align: right;
-}
-
-footer a {
-    font-weight: bold;
 }
